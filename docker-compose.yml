@@ -3,4 +3,3 @@ app:
   command: bitrise --version
   volumes:
     - ./_tmp:/bitrise/tmp
-    - ./system_report.sh:/bitrise/src/system_report.sh
